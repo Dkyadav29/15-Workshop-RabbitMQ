@@ -1,0 +1,16 @@
+{
+    "name": "workshop15",
+    "version": "1.0.0",
+    "description": " messaging broker - an intermediary for messaging ie rabbitmq",
+    "main": "app.js",
+    "scripts": {
+        "start": "node publisher.js",
+        "start1": "node consumernumber-1",
+        "start3": "node consumer-2.js"
+    },
+    "author": "dablu kumar",
+    "license": "ISC",
+    "dependencies": {
+        "amqplib": "^0.8.0"
+    }
+}
